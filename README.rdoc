@@ -49,4 +49,4 @@ jquery-ui themes and how to fine tune the asset pipeline.
 == Note
 
 For "real" production use behinde apache or even better nginx don't forget to change the
-production environment setting <tt>config.serve_static_assets</tt> from <tt>true</tt> to <tt>false.
+production environment setting <tt>config.serve_static_assets</tt> from <tt>true</tt> to <tt>false</tt>.
