@@ -1,0 +1,12 @@
+/*
+ *= require_tree ./jquery-ui-themes/dark-theme
+ *= require_self
+ */
+
+body.dark-theme {
+  background:#000;
+  color: #fff;
+
+  .toggle-theme { background:#fff; color:#000; }
+}
+

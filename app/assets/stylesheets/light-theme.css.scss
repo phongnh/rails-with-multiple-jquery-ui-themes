@@ -1,0 +1,12 @@
+/*
+ *= require_tree ./jquery-ui-themes/light-theme
+ *= require_self
+ */
+
+body.light-theme {
+  background:#fff;
+  color: #000;
+
+  .toggle-theme { background:#000; color:#fff; }
+}
+

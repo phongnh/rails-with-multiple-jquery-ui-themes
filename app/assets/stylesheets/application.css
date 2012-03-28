@@ -1,0 +1,16 @@
+/*
+ *= require normalize
+ *= require dark-theme
+ *= require light-theme
+ *= require_self
+*/
+
+html, body {
+  font-size:11px;
+  padding:80px;
+}
+
+.toggle-theme {
+  padding:.5em 1em;
+  cursor:pointer;  
+}
