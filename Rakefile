@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-MultipleJqueryUiThemes::Application.load_tasks
+RailsWithMultipleJqueryUiThemes::Application.load_tasks
