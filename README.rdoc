@@ -15,7 +15,7 @@ jquery-ui themes and how to fine tune the asset pipeline.
        <tt>bundle && bundle exec rake assets:clean assets:precompile</tt>
 
 4. Run in production:
-       <tt>bundle exex rails s -e production</tt>
+       <tt>bundle exec rails s -e production</tt>
 
 5. Got to http://localhost:3000
 
@@ -31,10 +31,11 @@ jquery-ui themes and how to fine tune the asset pipeline.
 
 4. Download and unpack the <tt>css/my-theme</tt> to <tt>app/assets/stylesheets/jquery-ui-themes</tt>
 
-5. Add the theme-path to <tt>config/application.rb</tt>
+5. Add the new themes path to <tt>config/application.rb</tt>:
+  <tt>config.assets.paths.unshift Rails.root.join("app", "assets", "stylesheets", "jquery-ui-themes", "my-theme").to_s</tt>
 
 6. Precompile again and restart server:
-  <tt>bundle exec assets:clean assets:precompile</tt>
+  <tt>bundle exec rake assets:clean assets:precompile</tt>
   <tt>bundle exec rails s -e production</tt>
 
 == Note
