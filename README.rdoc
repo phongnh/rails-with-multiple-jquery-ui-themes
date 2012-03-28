@@ -7,19 +7,19 @@ jquery-ui themes and how to fine tune the asset pipeline.
 
 1. Checkout the code:
 
-   git clone http://github.com:fpauser/rails-with-multiple-jquery-ui-themes.git
+    git clone http://github.com:fpauser/rails-with-multiple-jquery-ui-themes.git
 
 2. Change directory to the just cloned sample rails app
 
-   cd rails-with-multiple-jquery-ui-themes
+    cd rails-with-multiple-jquery-ui-themes
 
 3. Bundle & Precompile Assets:
 
-   bundle && bundle exec rake assets:clean assets:precompile
+    bundle && bundle exec rake assets:clean assets:precompile
 
 4. Run in production:
 
-   bundle exec rails s -e production
+    bundle exec rails s -e production
 
 5. Got to http://localhost:3000
 
@@ -38,13 +38,13 @@ jquery-ui themes and how to fine tune the asset pipeline.
 
 5. Add the new themes path to <tt>config/application.rb</tt>:
 
-  config.assets.paths.unshift Rails.root.join("app", "assets", "stylesheets", "jquery-ui-themes", "my-theme").to_s
+    config.assets.paths.unshift Rails.root.join("app", "assets", "stylesheets", "jquery-ui-themes", "my-theme").to_s
 
 6. Precompile again and restart server:
 
-  bundle exec rake assets:clean assets:precompile
+    bundle exec rake assets:clean assets:precompile
 
-  bundle exec rails s -e production
+    bundle exec rails s -e production
 
 == Note
 
