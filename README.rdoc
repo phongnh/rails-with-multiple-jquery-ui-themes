@@ -31,8 +31,8 @@ jquery-ui themes and how to fine tune the asset pipeline.
 2. Click "Download theme" within the themeroller widget.
 
 3. Open the "Advanced Theme Settings" Area:
-   - Specify the "CSS Scope" (e.g. .my-theme)
-   - Specify the "Theme Folder Name" (e.g. my-theme)
+   - Specify the "CSS Scope" (e.g. '.my-theme')
+   - Specify the "Theme Folder Name" (e.g. 'my-theme')
 
 4. Download and unpack the <tt>css/my-theme</tt> to <tt>app/assets/stylesheets/jquery-ui-themes</tt>
 
